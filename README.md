@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/img/Big_ChatUs_Logo.png?raw=true" alt="Alpine Weather logo" width="50%">
+  <img src="static/img/Big_ChatUs_Logo.png?raw=true" alt="Alpine Weather logo" width="35%">
 </p>
 
 <h3 align="center">ChatUs - Messaging App</h3>
