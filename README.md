@@ -12,7 +12,7 @@
 <p> ChatUs is a real-time chat application built using Python and the socket library, that allows users to communicate with each other over a network. The project includes a server and a client application with a graphical user interface using tkinter. 
 
 Take a look at the demo below for a quick overview of the project's flow 🔽</p>
-![ChatUs Demo](https://user-images.githubusercontent.com/114337279/235613019-16c2ae57-a24b-4cea-bdeb-e3111b38e5d7.gif)
+![ChatUs Demo](https://user-images.githubusercontent.com/114337279/235614574-86798a6c-2126-4f25-b68f-0b87242caab9.gif)
 
 <h2> 💻 Technology Stack </h2>
 
