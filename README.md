@@ -55,7 +55,28 @@ $ python chatus_client.py
 
 <h2> ⚙️ How it Works </h2>
 
+The ChatUs application consists of two main components: the Server and the Client. 
 
+The server listens for incoming client connections and creates a new thread to manage each client's communication. The client connects to the server using a username, an IP address, and a port number. Once connected, clients can send and receive messages in real-time.
+
+In terms of the breakdown of how these two components work:
+
+<h3> 📡 Server </h3>
+
+1. Create a socket object using the **socket()** function from the socket library with the **IPv4 address** family and the **TCP protocol**.
+2. Bind the socket object to a **specific IP address** and **port number** using the **bind()** method. 
+3. Listen for incoming client connections using the **listen()** method in a loop.
+4. When a new client connection is accepted, creates a new thread to manage communication with that client. 
+5. The **thread** constinuosly listens for incoming messages from the client using a while loop and broadcasts the message to all other connected clients using the **send()** method on their respective socket objects.
+
+<h3> 📱 Client </h3>
+
+1. Create another socket object.
+2. Connect to the server using the **connect()** method on the socket object, passing in the server's IP address and port number as arguments.
+3. Enter a loop that listens for incoming messages from the server using a separate thread, created using the **Thread()** function from the threading library.
+4. This function is started in the new thread continuosly listens for incoming messages from the server using a while loop and display them in the client's GUI using the **insert()** method on the Tkinter text widget.
+5. Listen to the user input using the **bind()** method on the Entry widget. When the user types a messages and sends it, the message is sent to the server using the **send()** method on the socket object, after appending the client's username to the message.
+6. If the user types **"quit"**, the client closes the socket connection using the **close()** methods and destroys the GUI using the **destroy()** method on the Tkinter Tk widget.
 
 
 <h2> 🎯 Conclusions and Future Improvements </h2>
