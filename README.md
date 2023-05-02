@@ -12,7 +12,7 @@
 <p> ChatUs is a real-time chat application built using Python and the socket library, that allows users to communicate with each other over a network. The project includes a server and a client application with a graphical user interface using tkinter. 
 
 Take a look at the demo below for a quick overview of the project's flow 🔽</p>
-
+![ChatUs Demo](https://user-images.githubusercontent.com/114337279/235613019-16c2ae57-a24b-4cea-bdeb-e3111b38e5d7.gif)
 
 <h2> 💻 Technology Stack </h2>
 
@@ -71,7 +71,7 @@ In terms of the breakdown of how these two components work:
 
 <h3> 📱 Client </h3>
 
-1. Create another socket object.
+1. Create another **socket** object.
 2. Connect to the server using the **connect()** method on the socket object, passing in the server's IP address and port number as arguments.
 3. Enter a loop that **listens for incoming messages** from the server using a separate thread, created using the **Thread()** function from the threading library.
 4. This function is started in the new thread continuosly listens for incoming messages from the server using a while loop and display them in the client's GUI using the **insert()** method on the Tkinter text widget.
