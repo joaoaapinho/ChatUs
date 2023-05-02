@@ -18,7 +18,6 @@ Take a look at the demo below for a quick overview of the project's flow 🔽</p
 
 Python, Socket library, and Tkinter.
 
-
 <h2> 🚀 Instructions </h2>
 
 1. **Clone the repository or download the source code.**
@@ -54,4 +53,21 @@ $ python chatus_client.py
 - Broadcast messaging: real-time messages sent by one client are received by all other connected clients.
 - Users can type "quit" to gracefully exit the chat application, closing the socket connection and destroying the GUI.
 
+<h2> ⚙️ How it Works </h2>
 
+
+
+
+<h2> 🎯 Conclusions and Future Improvements </h2>
+
+In summary, the ChatUs - Messaging App is an easy yet effective way for users to communicate in real time over a network. The project is simple to understand and extend, thanks to the usage of the Python socket library and the tkinter GUI toolkit, which enable programmers to change or add new features as necessary. 
+
+While the developed features allow for the core use of any chat app, there are still some improvement opportunities that can be explored in future updates:
+
+- **Private Messaging**: Introducing a feature to send messages to individual users would enhance the usefulness of the app in different scenarios.
+
+- **Encryption**: Implementing end-to-end encryption would greatly enhance the security of the chat application by preventing third party message interceptions.
+
+- **User Authentication**:  Developing a user authentication functionality could help prevent unauthorized access to the chatrooms.
+
+- **File Transfer**: Adding support for file transfer, such as images or documents, would enhance the functionality of the chat application and make it more versatile.
