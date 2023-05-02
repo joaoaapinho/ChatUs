@@ -17,7 +17,7 @@ Take a look at the demo below for a quick overview of the project's flow 🔽</p
 
 Python, Socket library, and Tkinter.
 
-<h2> 🚀 Instructions <h2>
+<h2> 🚀 Instructions </h2>
 
 1. Clone the repository or download the source code:
 
