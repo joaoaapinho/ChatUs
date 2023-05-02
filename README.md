@@ -26,7 +26,9 @@ $ git clone https://github.com/joaoaapinho/ChatUs/tree/main
 ```
 2. Open the chatus_server.py file and modify the hostIP and port variables with the desired server details.
 
-`hostIP = "your_host_ip_address_here"`
+```
+hostIP = "your_host_ip_address_here"
+```
 
 3. Run the server.py file on the desired host in the terminal or by using an IDE.
 
