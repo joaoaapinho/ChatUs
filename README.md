@@ -4,8 +4,6 @@
 
 <h3 align="center">ChatUs - Messaging App</h3>
 
-<p align="center"><b>Done by:</b> João André Pinho</p>
-
 
 <h2> 👁‍🗨 Overview </h2>
 
